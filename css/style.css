@@ -1,0 +1,44 @@
+  section{
+    color: gray;
+  }
+  body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fefbd8;
+    color: black;
+  }
+  p{
+    color: black;
+    font-family: sans-serif;
+  }
+  h1, h2, h3,h5{
+    font-style: italic;
+    font-family: serif;
+    color: black;
+  }
+
+  #nav ul a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #9BABB2;
+    font-weight: bold;
+    padding: 14px 16px;
+  }
+    #nav li{
+    display: inline-block;
+  }
+
+  #nav li a:hover {
+      background-color: #111;
+  }
+  #nav li a:active{
+    background-color: green;
+  }
+  @media only screen and (min-width: 600px) {
+    body{
+      margin-bottom: 8px;
+      margin-left: 49px;
+      margin-right: 49px;
+      margin-top: 8px;
+    }
+  }
